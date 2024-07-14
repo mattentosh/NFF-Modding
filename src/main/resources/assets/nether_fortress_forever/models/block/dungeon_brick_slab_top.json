@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "nether_fortress_forever:block/dungeon_brick",
+    "side": "nether_fortress_forever:block/dungeon_brick",
+    "top": "nether_fortress_forever:block/dungeon_brick"
+  }
+}

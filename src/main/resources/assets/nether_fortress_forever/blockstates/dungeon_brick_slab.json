@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nether_fortress_forever:block/dungeon_brick_slab"
+    },
+    "type=double": {
+      "model": "nether_fortress_forever:block/dungeon_brick"
+    },
+    "type=top": {
+      "model": "nether_fortress_forever:block/dungeon_brick_slab_top"
+    }
+  }
+}

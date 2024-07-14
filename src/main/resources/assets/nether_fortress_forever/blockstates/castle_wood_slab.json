@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nether_fortress_forever:block/castle_wood_slab"
+    },
+    "type=double": {
+      "model": "nether_fortress_forever:block/castle_wood_planks"
+    },
+    "type=top": {
+      "model": "nether_fortress_forever:block/castle_wood_top"
+    }
+  }
+}

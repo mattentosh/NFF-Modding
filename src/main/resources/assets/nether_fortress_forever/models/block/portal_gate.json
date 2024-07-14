@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "nether_fortress_forever:block/portal_gate",
+		"particle": "nether_fortress_forever:block/portal_gate"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 7],
+			"to": [16, 32, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 10.66667, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 10.66667, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-4.5, -1, 4],
+			"to": [4.5, 8, 7],
+			"faces": {
+				"north": {"uv": [10.66667, 0, 13.66667, 3], "texture": "#0"},
+				"east": {"uv": [14.66667, 0, 13.66667, 3], "texture": "#0"},
+				"west": {"uv": [13.66667, 0, 14.66667, 3], "texture": "#0"},
+				"up": {"uv": [10.66667, 4, 13.66667, 5], "texture": "#0"},
+				"down": {"uv": [13.66667, 4, 10.66667, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-4.5, -1, 11],
+			"to": [4.5, 8, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.5, 12.5]},
+			"faces": {
+				"east": {"uv": [13.66667, 0, 14.66667, 3], "texture": "#0"},
+				"south": {"uv": [10.66667, 0, 13.66667, 3], "texture": "#0"},
+				"west": {"uv": [14.66667, 0, 13.66667, 3], "texture": "#0"},
+				"up": {"uv": [10.66667, 4, 13.66667, 5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [13.66667, 4, 10.66667, 3], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "portal_gate",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

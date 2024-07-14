@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "nether_fortress_forever:block/castle_wood_planks",
+    "side": "nether_fortress_forever:block/castle_wood_planks",
+    "top": "nether_fortress_forever:block/castle_wood_planks"
+  }
+}

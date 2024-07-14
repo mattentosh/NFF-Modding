@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nether_fortress_forever:block/dungeon_tile_slab"
+    },
+    "type=double": {
+      "model": "nether_fortress_forever:block/dungeon_tiles"
+    },
+    "type=top": {
+      "model": "nether_fortress_forever:block/dungeon_tile_slab_top"
+    }
+  }
+}

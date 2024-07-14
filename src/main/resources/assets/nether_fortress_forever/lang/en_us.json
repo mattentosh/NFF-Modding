@@ -1,0 +1,32 @@
+{
+  "block.nether_fortress_forever.cracked_dungeon_brick": "Cracked Dungeon Bricks",
+  "block.nether_fortress_forever.cracked_dungeon_brick_slab": "Cracked Dungeon Brick Slab",
+  "block.nether_fortress_forever.cracked_dungeon_brick_stairs": "Cracked Dungeon Brick Stairs",
+
+  "block.nether_fortress_forever.dungeon_brick": "Dungeon Bricks",
+  "block.nether_fortress_forever.dungeon_brick_slab": "Dungeon Brick Slab",
+  "block.nether_fortress_forever.dungeon_brick_stairs": "Dungeon Brick Stairs",
+
+  "block.nether_fortress_forever.dungeon_tiles": "Dungeon Tiles",
+  "block.nether_fortress_forever.dungeon_tile_slab": "Dungeon Tile Slab",
+  "block.nether_fortress_forever.dungeon_tile_stairs": "Dungeon Tile Stairs",
+
+  "block.nether_fortress_forever.gilded_dungeon_brick": "Gilded Dungeon Brick",
+  "block.nether_fortress_forever.gilded_cut_dungeon_brick": "Gilded Cut Dungeon Brick",
+  "block.nether_fortress_forever.gilded_cut_dungeon_brick_mirrored": "Gilded Cut Dungeon Brick Mirrored",
+
+  "block.nether_fortress_forever.mixed_dungeon_tiles": "Checkered Dungeon Tiles",
+
+  "block.nether_fortress_forever.portal_gate": "Dungeon Gate",
+
+  "block.nether_fortress_forever.witherskull_bricks": "Witherskull Bricks",
+  "block.nether_fortress_forever.witherskull_bricks_enchanted": "Pulsating Witherskull Bricks",
+
+  "block.nether_fortress_forever.castle_wood_planks": "Castle Wood Planks",
+  "block.nether_fortress_forever.castle_wood_stairs": "Castle Wood Stairs",
+  "block.nether_fortress_forever.castle_wood_slab": "Castle Wood Slabs",
+
+  "block.nether_fortress_forever.brazier": "Bloodfire Brazier",
+
+  "itemgroup.NFF": "Nether Fortress Forever"
+}

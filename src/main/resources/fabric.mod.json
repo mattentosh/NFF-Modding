@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nether_fortress_forever",
+	"version": "${version}",
+	"name": "Nether Fortress Forever",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Szedann & Mattentosh!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/nether-fortress-forever/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nether_fortress_forever.modid.NetherFortressForever"
+		],
+		"client": [
+			"nether_fortress_forever.modid.NetherFortressForeverClient"
+		],
+		"fabric-datagen": [
+			"nether_fortress_forever.modid.NetherFortressForeverDataGenerator"
+		]
+	},
+	"mixins": [
+		"nether-fortress-forever.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

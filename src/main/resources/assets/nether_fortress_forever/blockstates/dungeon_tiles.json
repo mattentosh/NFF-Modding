@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nether_fortress_forever:block/dungeon_tiles"
+    }
+  }
+}
