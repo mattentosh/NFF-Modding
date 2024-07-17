@@ -67,6 +67,8 @@ public class ModBlocks {
 
     public static final Block BRAZIER = registerBlock("brazier",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+    public static final Block CHANDELIER = registerBlock("chandelier",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block) {

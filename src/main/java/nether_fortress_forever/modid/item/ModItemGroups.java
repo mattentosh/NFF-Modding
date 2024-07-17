@@ -47,6 +47,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CASTLE_WOOD_STAIRS);
 
                         entries.add(ModBlocks.BRAZIER);
+                        entries.add(ModBlocks.CHANDELIER);
 
 
 
