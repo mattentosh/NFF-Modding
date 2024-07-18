@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import nether_fortress_forever.modid.NetherFortressForever;
+import nether_fortress_forever.modid.block.custom.PortalGateBlock;
 
 public class ModBlocks {
 
@@ -49,7 +50,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
 
     public static final Block PORTAL_GATE = registerBlock("portal_gate",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new PortalGateBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     public static final Block WITHERSKULL_BRICKS = registerBlock("witherskull_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS)));
