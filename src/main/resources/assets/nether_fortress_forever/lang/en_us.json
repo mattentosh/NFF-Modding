@@ -25,6 +25,10 @@
   "block.nether_fortress_forever.castle_wood_planks": "Castle Wood Planks",
   "block.nether_fortress_forever.castle_wood_stairs": "Castle Wood Stairs",
   "block.nether_fortress_forever.castle_wood_slab": "Castle Wood Slabs",
+  "block.nether_fortress_forever.wood_paneling_top": "Castle Wood Paneling Top",
+  "block.nether_fortress_forever.wood_paneling_mid": "Castle Wood Paneling Mid",
+  "block.nether_fortress_forever.wood_paneling_base": "Castle Wood Paneling Base",
+  "block.nether_fortress_forever.wood_paneling": "Castle Wood Paneling ",
 
   "block.nether_fortress_forever.brazier": "Bloodfire Brazier",
   "block.nether_fortress_forever.chandelier": "Chandelier",

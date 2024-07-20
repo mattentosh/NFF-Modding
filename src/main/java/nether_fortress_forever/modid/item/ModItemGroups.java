@@ -46,6 +46,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CASTLE_WOOD_SLAB);
                         entries.add(ModBlocks.CASTLE_WOOD_STAIRS);
 
+                        entries.add(ModBlocks.WOOD_PANELING_BASE);
+                        entries.add(ModBlocks.WOOD_PANELING_TOP);
+                        entries.add(ModBlocks.WOOD_PANELING_MID);
+                        entries.add(ModBlocks.WOOD_PANELING);
+
                         entries.add(ModBlocks.BRAZIER);
                         entries.add(ModBlocks.CHANDELIER);
 
