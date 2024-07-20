@@ -67,12 +67,7 @@ public class ModBlocks {
     public static final Block CASTLE_WOOD_STAIRS = registerBlock("castle_wood_stairs",
             new StairsBlock(ModBlocks.CASTLE_WOOD_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
-    public static final Block WOOD_PANELING_BASE = registerBlock("wood_paneling_base",
-            new WoodPanelingBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
-    public static final Block WOOD_PANELING_MID = registerBlock("wood_paneling_mid",
-            new WoodPanelingBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
-    public static final Block WOOD_PANELING_TOP = registerBlock("wood_paneling_top",
-            new WoodPanelingBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
     public static final Block WOOD_PANELING = registerBlock("wood_paneling",
             new WoodPanelingBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
