@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "connected_state=1": { "model": "nether_fortress_forever:block/wood_paneling_base" },
+    "connected_state=2": { "model": "nether_fortress_forever:block/wood_paneling_top" },
+    "connected_state=3": { "model": "nether_fortress_forever:block/wood_paneling_mid" },
+    "connected_state=0": { "model": "nether_fortress_forever:block/wood_paneling_base" }
+  }
+}
