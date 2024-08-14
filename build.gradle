@@ -21,6 +21,31 @@ repositories {
 fabricApi {
 	configureDataGeneration()
 }
+loom {
+	runs {
+		// This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
+		datagen {
+			inherit server
+			name "Data Generation"
+			vmArg "-Dfabric-api.datagen"
+			vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+			vmArg "-Dfabric-api.datagen.modid=tutorialmod"
+
+			runDir "build/datagen"
+		}
+	}
+}
+
+// Add the generated resources to the main source set
+sourceSets {
+	main {
+		resources {
+			srcDirs += [
+					'src/main/generated'
+			]
+		}
+	}
+}
 
 dependencies {
 	// To change the versions see the gradle.properties file
@@ -76,5 +101,18 @@ publishing {
 		// Notice: This block does NOT have the same function as the block in the top level.
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
+	}
+
+// to exclude generated files,romove if having a problem
+	tasks.withType(Copy) {
+		duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	}
+
+	processResources {
+		duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	}
+
+	jar {
+		duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	}
 }
