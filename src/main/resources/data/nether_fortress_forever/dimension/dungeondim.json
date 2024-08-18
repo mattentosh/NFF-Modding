@@ -1,0 +1,12 @@
+
+{
+  "type": "nether_fortress_forever:dungeondim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "minecraft:the_void"
+    }
+  }
+}
